@@ -1,0 +1,146 @@
+
+.dashboard {
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid white;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-time {
+  text-align: right;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.table-container {
+  flex: 7;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-header {
+  background-color: #1D40AD;
+  color: white;
+  padding: 15px 10px;
+  text-align: left;
+  height: 65px;
+}
+
+.table .up {
+  color: green;
+}
+
+.table .down {
+  color: red;
+}
+
+.employee-card {
+  flex: 1.3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 30px;
+  padding: 3px;
+  margin: 10px;
+}
+
+
+.empty-space {
+  flex: 0.5;
+}
+
+.image-container {
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.employee-image {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  padding: 16px;
+}
+
+.details h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 1000;
+  color: #3b4697;
+}
+
+.details h3 {
+  margin: 8px 0 4px;
+  font-size: 16px;
+  color: #555;
+}
+
+.details p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.graphic {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.graphic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.custom-avatar {
+  width: 0.5px;
+  height: 0.5px;
+  margin-right: 0.1px;
+}
+
+.name-avatar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 200;
+}
